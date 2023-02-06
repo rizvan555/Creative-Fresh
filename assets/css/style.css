@@ -18,7 +18,13 @@
 }
 .page1 main {
   color: #fff;
-  background-image: linear-gradient(to right, #8507e1, #194894, #3dc8d5);
+  background: linear-gradient(
+    41deg,
+    rgba(133, 7, 225, 1) 33%,
+    rgba(105, 24, 205, 1) 37%,
+    rgba(25, 72, 148, 1) 57%,
+    rgba(61, 200, 213, 1) 100%
+  );
   width: 300px;
   height: 250px;
   padding-top: 10px;
@@ -27,7 +33,12 @@
   cursor: pointer;
 }
 .page1 main:hover {
-  background-image: linear-gradient(to left, #8507e1, #194894, #3dc8d5);
+  background-image: linear-gradient(
+    41deg,
+    rgba(61, 200, 213, 1) 16%,
+    rgba(4, 69, 175, 1) 40%,
+    rgba(133, 7, 225, 1) 71%
+  );
 }
 
 .page1 article h1 {
@@ -40,13 +51,13 @@
 .page1 footer nav {
   margin-right: 40px;
   text-align: right;
-  line-height: 30px;
+  line-height: 36px;
 }
 
 .page1 footer nav a {
   text-decoration: none;
   letter-spacing: 1px;
-  font-size: 24px;
+  font-size: 22px;
   color: #ccc;
 }
 .page1 footer nav a:hover {
@@ -57,12 +68,12 @@
   background-image: url("https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg");
   background-repeat: no-repeat;
   background-position: top;
-  background-size: contain;
-  height: 100vh;
+  background-size: 1200px;
 }
 .page2 article {
-  width: 400px;
-  margin: 200px auto 0px 200px;
+  width: 550px;
+  margin: 200px auto 300px 200px;
+  padding-top: 150px;
 }
 .page2 article h1 {
   font-size: 65px;
