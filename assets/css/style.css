@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page1 {
+  background-color: #000;
+  height: 100vh;
+}
+
+.page1 header {
+  padding: 20px 0px 0px 50px;
+  color: #fff;
+  width: 30px;
+}
+.page1 header h2 {
+  letter-spacing: 2px;
+}
+.page1 main {
+  color: #fff;
+  background-image: linear-gradient(to right, #8507e1, #194894, #3dc8d5);
+  width: 300px;
+  height: 250px;
+  padding-top: 10px;
+  text-align: center;
+  margin: 150px auto;
+  cursor: pointer;
+}
+.page1 main:hover {
+  background-image: linear-gradient(to left, #8507e1, #194894, #3dc8d5);
+}
+
+.page1 article h1 {
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+.page1 article p {
+  word-spacing: 3px;
+}
+.page1 footer nav {
+  margin-right: 40px;
+  text-align: right;
+  line-height: 30px;
+}
+
+.page1 footer nav a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 24px;
+  color: #ccc;
+}
+.page1 footer nav a:hover {
+  color: #fff;
+}
+
+.page2 {
+  background-image: url("https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  height: 100vh;
+}
+.page2 article {
+  width: 400px;
+  margin: 200px auto 0px 200px;
+}
+.page2 article h1 {
+  font-size: 65px;
+  margin-bottom: 30px;
+}
+.page2 article p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.page2 article span {
+  font-size: 20px;
+}
+
+.page3 header img {
+  width: 1000px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: 40px auto 20px auto;
+  display: block;
+}
+.page3 main {
+  margin-left: 230px;
+  line-height: 50px;
+}
+.page3 main article h1 {
+  font-size: 40px;
+}
+.page3 main article p {
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+
+.page4 header img {
+  width: 1000px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: 40px auto 20px auto;
+  display: block;
+}
+.page4 main {
+  margin-left: 230px;
+  line-height: 50px;
+}
+.page4 main article h1 {
+  font-size: 40px;
+}
+.page4 main article p {
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+
+.page5 header img {
+  width: 1000px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: 40px auto 20px auto;
+  display: block;
+}
+.page5 main {
+  margin-left: 230px;
+  line-height: 50px;
+}
+.page5 main article h1 {
+  font-size: 40px;
+}
+.page5 main article p {
+  font-size: 20px;
+  margin-bottom: 60px;
+}
