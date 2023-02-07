@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .page1 {
-  background-color: #000;
+  background-color: #333;
   height: 100vh;
 }
 
@@ -18,11 +18,10 @@
 }
 .page1 main {
   color: #fff;
-  background: linear-gradient(
-    41deg,
-    rgba(133, 7, 225, 1) 33%,
-    rgba(105, 24, 205, 1) 37%,
-    rgba(25, 72, 148, 1) 57%,
+  background-image: linear-gradient(
+    45deg,
+    rgba(133, 7, 225, 1) 0%,
+    rgba(25, 72, 148, 1) 45%,
     rgba(61, 200, 213, 1) 100%
   );
   width: 300px;
@@ -35,9 +34,9 @@
 .page1 main:hover {
   background-image: linear-gradient(
     41deg,
-    rgba(61, 200, 213, 1) 16%,
-    rgba(4, 69, 175, 1) 40%,
-    rgba(133, 7, 225, 1) 71%
+    rgba(61, 200, 213, 1) 0%,
+    rgba(25, 72, 148, 1) 45%,
+    rgba(133, 7, 225, 1) 100%
   );
 }
 
@@ -53,7 +52,6 @@
   text-align: right;
   line-height: 36px;
 }
-
 .page1 footer nav a {
   text-decoration: none;
   letter-spacing: 1px;
@@ -67,8 +65,9 @@
 .page2 {
   background-image: url("https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg");
   background-repeat: no-repeat;
-  background-position: top;
-  background-size: 1200px;
+  background-position: 110px 40px;
+  background-size: 900px;
+  background-size: center;
 }
 .page2 article {
   width: 550px;
